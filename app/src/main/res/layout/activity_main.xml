@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/btn_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Запуск" />
+
+        <ImageView
+            android:id="@+id/image_cat1"
+            android:layout_width="187dp"
+            android:layout_height="179dp"
+            android:layout_margin="120dp"
+            android:layout_x="210dp"
+            android:layout_y="80dp"
+            android:src="@drawable/cat"
+            tools:layout_editor_absoluteX="198dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <ImageView
+            android:id="@+id/image_cat2"
+            android:layout_width="163dp"
+            android:layout_height="304dp"
+            android:layout_margin="120dp"
+            android:layout_x="8dp"
+            android:layout_y="135dp"
+            android:src="@drawable/cat_2"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="159dp" />
+
+        <ImageView
+            android:id="@+id/image_cat3"
+            android:layout_width="163dp"
+            android:layout_height="170dp"
+            android:layout_margin="120dp"
+            android:layout_x="21dp"
+            android:layout_y="533dp"
+            android:src="@drawable/cat_3"
+            tools:layout_editor_absoluteX="24dp"
+            tools:layout_editor_absoluteY="500dp" />
+
+        <ImageView
+            android:id="@+id/image_cat4"
+            android:layout_width="186dp"
+            android:layout_height="189dp"
+            android:layout_x="208dp"
+            android:layout_y="381dp"
+            android:src="@drawable/cat_4"
+            tools:layout_editor_absoluteX="199dp"
+            tools:layout_editor_absoluteY="351dp" />
+
+</AbsoluteLayout>
